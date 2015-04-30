@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="javascripts/pagetop.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.css">	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/miller.css">
+	<title>神通資科</title>
+</head>
+<body>
+<div class="wrapper">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12 col-md-12">
+				<div class="logo"><img src="images/logo2.jpg" class="img-responsive" alt="Responsive image" style="margin:0 auto"></div>	
+			</div>
+			<div class="col-xs-12 col-md-12">
+				<nav class="navbar">
+		 			<div class="navbar-header">
+		      			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				    		<span class="sr-only">Toggle navigation</span>
+				    		<span class="icon-bar"></span>
+				    		<span class="icon-bar"></span>
+				    		<span class="icon-bar"></span>
+		      			</button>
+				 	</div>
+			 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      		<ul class="nav navbar-nav">
+				      		<li class="dropdown">
+					        	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">關於神通資科<span class="caret"></span></a>
+					        	<ul class="dropdown-menu" role="menu">
+						            <li><a href="#">公司簡介</a></li>
+						            <li><a href="#">業務領域</a></li>
+						            <li><a href="#">榮譽與責任</a></li>
+						            <li><a href="#">聯華神通</a></li> 
+					        	</ul>
+			        		</li>
+			        		<li class="dropdown">
+					        	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">最新消息<span class="caret"></span></a>
+					        	<ul class="dropdown-menu" role="menu">
+						            <li><a href="news.html">新聞稿</a></li>
+						            <li><a href="#">媒體報導</a></li>
+					        	</ul>
+			        		</li>
+			        		<li class="dropdown">
+					        	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">產品與服務<span class="caret"></span></a>
+					        	<ul class="dropdown-menu" role="menu">
+						            <li><a href="sevice.html">解決方案</a></li>
+						            <li><a href="sevice.html">自有產品</a></li>
+						            <li><a href="sevice.html">代理產品</a></li>
+					        	</ul>
+			        		</li>
+			        		<li><a href="#">人才招募</a></li>
+			        		<li><a href="#">聯絡我們</a></li>
+			        		<li><a href="#">相關聯結</a></li>
+				      	</ul>
+		   				<form class="navbar-form navbar-left" role="search">
+	        			<div class="form-group">
+	          				<input type="text" class="form-control" placeholder="Search">
+	        			</div>
+	        			<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+	        			</button>
+	      				</form>
+			 		</div>	
+				</div>		
+			</div>
+		</div>
+	</div>
+	</nav>
+	
+<!--End Header-->
+
+<%= yield %>
+
+<!--
+
+	<div class="pagetop">
+		<p>
+			<a href="#wrapper">
+				<img src="images/pagetop.gif" alt="" width="50" height="50" style="opacity:1">
+			</a>
+		</p>		
+	</div>
+-->
+<!--start floor-->
+	<div class="container-fluid" style="padding:0">
+	<footer>
+		<div class="row">
+			<div class="rol-xs-6 rol-sm-3">
+				<div class="logo2" class="cleanfix"><img src="images/logo.jpg" alt="" class="img-responsive"></div>
+			</div>
+			<div class="rol-xs-6 rol-sm-9">
+				<ul>
+					<li>關於神通資科</li>
+					<li>公司簡介</li>
+					<li>業務領域</li>
+					<li>榮耀與責任</li>
+					<li>聯華神通</li>
+				</ul>
+				<ul>
+					<li>最新消息</li>
+					<li>新聞稿</li>
+					<li>媒體報導</li>
+				</ul>		
+				<ul>
+					<li>產品與服務</li>
+					<li>解決方案</li>
+					<li>自有產品</li>
+					<li>代理產品</li>
+				</ul>
+				<ul>
+					<li>人才招募</li>
+				</ul>
+				<ul>
+					<li>聯絡我們</li>
+				</ul>
+				<ul>
+					<li>相關連結</li>
+				</ul>
+			</div>	
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<p class="copyright">Copyright © 2015 MiTAC Information Technology Corp. All Rights Reserved.</p>
+
+			</div>
+		</div>		
+	</footer>	
+	</div>
+</div>
+</body>
+<!--Wripper over-->	
